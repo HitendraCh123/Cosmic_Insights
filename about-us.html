@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About Cosmic Insights | Vedic Astrology & Spiritual Guidance in the USA</title>
+    <meta name="description" content="Learn about Cosmic Insights, our approach to Vedic astrology, numerology, tarot and spiritual guidance, and how we bring traditional systems into modern life across the United States.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Cosmic Insights">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://YOUR-DOMAIN.com/about-us.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Cosmic Insights">
+    <meta property="og:title" content="About Cosmic Insights | Vedic Astrology & Spiritual Guidance in the USA">
+    <meta property="og:description" content="Learn about Cosmic Insights, our approach to Vedic astrology, numerology, tarot and spiritual guidance, and how we bring traditional systems into modern life across the United States.">
+    <meta property="og:url" content="https://YOUR-DOMAIN.com/about-us.html">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Cosmic Insights | Vedic Astrology & Spiritual Guidance in the USA">
+    <meta name="twitter:description" content="Learn about Cosmic Insights, our approach to Vedic astrology, numerology, tarot and spiritual guidance, and how we bring traditional systems into modern life across the United States.">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/celestial-elegance.css">
+    <link rel="stylesheet" href="assets/celestial-premium.css">
+
+    <style>
+        /* =========================================================
+           ABOUT-US UI FIX
+           Content and wording intentionally unchanged.
+           ========================================================= */
+
+        :root {
+            --about-ink: #131816;
+            --about-muted: #69706b;
+            --about-paper: #fbf8f1;
+            --about-soft: #f1ece2;
+            --about-green: #159455;
+            --about-green-dark: #0e6840;
+            --about-gold: #d5ab3d;
+            --about-line: rgba(19, 24, 22, .12);
+            --about-white: #fffefa;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        /* Hero */
+        body:has(.hero) .hero {
+            position: relative;
+            padding: 120px 0 105px;
+            background:
+                radial-gradient(circle at 12% 18%, rgba(21,148,85,.07), transparent 30%),
+                radial-gradient(circle at 90% 12%, rgba(213,171,61,.06), transparent 28%),
+                var(--about-paper);
+            overflow: hidden;
+        }
+
+        body:has(.hero) .hero::before {
+            content: "";
+            position: absolute;
+            width: 340px;
+            height: 340px;
+            border: 1px solid rgba(21,148,85,.10);
+            border-radius: 50%;
+            right: -120px;
+            top: -90px;
+        }
+
+        body:has(.hero) .hero::after {
+            content: "";
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border: 1px solid rgba(213,171,61,.16);
+            border-radius: 50%;
+            left: -55px;
+            bottom: -50px;
+        }
+
+        /* body:has(.hero) .hero-copy {
+            max-width: 890px;
+            margin: 0 auto;
+            text-align: center;
+        } */
+
+        body:has(.hero) .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 22px;
+            color: var(--about-green);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: .24em;
+            text-transform: uppercase;
+        }
+
+        body:has(.hero) .eyebrow::before,
+        body:has(.hero) .eyebrow::after {
+            content: "";
+            width: 22px;
+            height: 1px;
+            background: currentColor;
+            opacity: .5;
+        }
+
+        body:has(.hero) .hero h1 {
+            max-width: 850px;
+            margin: 0 auto;
+            font-family: var(--serif);
+            font-size: clamp(50px, 6vw, 82px);
+            line-height: .97;
+            letter-spacing: -.045em;
+            font-weight: 500;
+        }
+
+        body:has(.hero) .hero h1::after {
+            content: "✦";
+            display: block;
+            margin: 26px auto 0;
+            color: var(--about-gold);
+            font-family: var(--sans);
+            font-size: 13px;
+        }
+
+        body:has(.hero) .hero-copy > p {
+            max-width: 690px;
+            margin: 28px auto 0;
+            color: var(--about-muted);
+            font-size: 16px;
+            line-height: 1.85;
+        }
+
+        /* Shared section shell */
+        body:has(.about-content) .section {
+            position: relative;
+            padding: 100px 0;
+        }
+
+        body:has(.about-content) .section.paper {
+            background: var(--about-paper);
+        }
+
+        body:has(.about-content) .section:not(.paper) {
+            background: #f5f1e8;
+        }
+
+        body:has(.about-content) .section > .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Main content blocks */
+        body:has(.about-content) .about-content {
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+
+        body:has(.about-content) .about-content > h2 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 0 0 24px;
+            font-family: var(--serif);
+            font-size: clamp(36px, 4.2vw, 58px);
+            font-weight: 500;
+            line-height: 1;
+            letter-spacing: -.035em;
+        }
+
+        body:has(.about-content) .about-content > h2::before {
+            content: "";
+            width: 30px;
+            height: 2px;
+            flex: 0 0 30px;
+            background: var(--about-green);
+        }
+
+        body:has(.about-content) .about-content > p {
+            max-width: 900px;
+            color: var(--about-muted);
+            font-size: 15px;
+            line-height: 1.9;
+            margin: 0 0 18px;
+        }
+
+        /* Give second paragraph visual rhythm */
+        body:has(.about-content) .about-content > p + p {
+            margin-top: 12px;
+        }
+
+        /* Why we do this */
+        body:has(.values-list) .values-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin: 28px 0 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body:has(.values-list) .values-list li {
+            min-height: 185px;
+            padding: 27px 28px;
+            background: var(--about-white);
+            border: 1px solid var(--about-line);
+            border-top: 2px solid rgba(21,148,85,.55);
+            border-radius: 2px;
+            color: var(--about-muted);
+            font-size: 14px;
+            line-height: 1.75;
+            box-shadow: 0 10px 26px rgba(19,24,22,.025);
+            transition: transform .25s ease, box-shadow .25s ease;
+        }
+
+        body:has(.values-list) .values-list li:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 34px rgba(19,24,22,.07);
+        }
+
+        body:has(.values-list) .values-list li b {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--about-ink);
+            font-size: 16px;
+            line-height: 1.35;
+        }
+
+        /* Approach */
+        body:has(.approach-steps) .approach-steps {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 30px;
+        }
+
+        body:has(.approach-steps) .approach-step {
+            position: relative;
+            min-height: 230px;
+            padding: 30px;
+            background: var(--about-white);
+            border: 1px solid var(--about-line);
+            overflow: hidden;
+            transition: transform .25s ease, background .25s ease;
+        }
+
+        body:has(.approach-steps) .approach-step:hover {
+            transform: translateY(-4px);
+            background: #fffdf8;
+        }
+
+        body:has(.approach-steps) .approach-step::after {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            right: -35px;
+            bottom: -35px;
+            border: 1px solid rgba(213,171,61,.15);
+            border-radius: 50%;
+        }
+
+        body:has(.approach-steps) .step-number {
+            display: inline-block;
+            padding-bottom: 6px;
+            color: var(--about-green);
+            border-bottom: 1px solid rgba(21,148,85,.3);
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: .18em;
+        }
+
+        body:has(.approach-steps) .approach-step h3 {
+            margin: 35px 0 10px;
+            font-family: var(--serif);
+            font-size: 29px;
+            font-weight: 500;
+            line-height: 1.08;
+            letter-spacing: -.025em;
+        }
+
+        body:has(.approach-steps) .approach-step p {
+            margin: 0;
+            max-width: 520px;
+            color: var(--about-muted);
+            font-size: 14px;
+            line-height: 1.75;
+        }
+
+        /* Difference */
+        body:has(.difference-grid) .difference-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 30px;
+        }
+
+        body:has(.difference-grid) .difference-item {
+            padding: 31px 30px;
+            background: rgba(255,255,255,.58);
+            border: 1px solid var(--about-line);
+            position: relative;
+        }
+
+        body:has(.difference-grid) .difference-item::before {
+            content: "✦";
+            display: block;
+            margin-bottom: 20px;
+            color: var(--about-gold);
+            font-size: 12px;
+        }
+
+        body:has(.difference-grid) .difference-item h3 {
+            margin: 0 0 10px;
+            font-family: var(--serif);
+            font-size: 28px;
+            line-height: 1.1;
+            font-weight: 500;
+        }
+
+        body:has(.difference-grid) .difference-item p {
+            margin: 0;
+            color: var(--about-muted);
+            font-size: 14px;
+            line-height: 1.75;
+        }
+
+        /* Cosmic backdrop */
+        body:has(.about-content) .section.paper:last-of-type {
+            background:
+                linear-gradient(rgba(255,253,248,.92), rgba(255,253,248,.92)),
+                radial-gradient(circle at 80% 20%, rgba(21,148,85,.08), transparent 30%);
+        }
+
+        /* Final CTA */
+        body:has(.dark-section) .dark-section {
+            position: relative;
+            padding: 105px 0;
+            background:
+                radial-gradient(circle at 82% 18%, rgba(21,148,85,.16), transparent 24%),
+                radial-gradient(circle at 12% 88%, rgba(213,171,61,.09), transparent 22%),
+                #121916;
+            color: #f8f5ec;
+            overflow: hidden;
+        }
+
+        body:has(.dark-section) .dark-section::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: -120px;
+            width: 420px;
+            height: 420px;
+            transform: translateY(-50%);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 50%;
+        }
+
+        body:has(.dark-section) .dark-section::after {
+            content: "✦";
+            position: absolute;
+            right: 120px;
+            top: 95px;
+            color: rgba(213,171,61,.45);
+            font-size: 14px;
+        }
+
+        body:has(.dark-section) .heading {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+        }
+
+        body:has(.dark-section) .kicker {
+            color: #4bc27e;
+        }
+
+        body:has(.dark-section) .title {
+            max-width: 780px;
+            margin-top: 14px;
+            color: black;
+            font-family: var(--serif);
+            font-size: clamp(40px, 4.5vw, 64px);
+            line-height: 1;
+            letter-spacing: -.04em;
+            font-weight: 500;
+        }
+
+        body:has(.dark-section) .subtitle {
+            max-width: 650px;
+            color:black;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        body:has(.dark-section) .cta-box {
+            position: relative;
+            z-index: 2;
+            margin-top: 35px;
+        }
+
+        body:has(.dark-section) .btn.white {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--about-green);
+            color: white;
+        }
+
+        /* Footer */
+        body:has(.about-content) .footer {
+            border-top: 1px solid rgba(255,255,255,.08);
+        }
+
+        /* Header polish */
+        body:has(.about-content) .header {
+            backdrop-filter: blur(14px);
+        }
+
+        /* Mobile */
+        @media (max-width: 900px) {
+            body:has(.hero) .hero {
+                padding: 105px 0 78px;
+            }
+
+            body:has(.about-content) .section {
+                padding: 78px 0;
+            }
+
+            body:has(.values-list) .values-list,
+            body:has(.approach-steps) .approach-steps,
+            body:has(.difference-grid) .difference-grid {
+                grid-template-columns: 1fr;
+            }
+
+            body:has(.values-list) .values-list li {
+                min-height: auto;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body:has(.hero) .hero {
+                padding: 92px 0 65px;
+            }
+
+            body:has(.hero) .hero h1 {
+                font-size: clamp(43px, 12vw, 62px);
+                line-height: .96;
+            }
+
+            body:has(.hero) .hero-copy > p {
+                font-size: 14px;
+                line-height: 1.75;
+            }
+
+            body:has(.about-content) .section {
+                padding: 65px 0;
+            }
+
+            body:has(.about-content) .about-content > h2 {
+                font-size: 39px;
+                line-height: 1.02;
+            }
+
+            body:has(.approach-steps) .approach-step,
+            body:has(.difference-grid) .difference-item,
+            body:has(.values-list) .values-list li {
+                padding: 24px;
+            }
+
+            body:has(.approach-steps) .approach-step h3,
+            body:has(.difference-grid) .difference-item h3 {
+                font-size: 24px;
+            }
+
+            body:has(.dark-section) .dark-section {
+                padding: 75px 0;
+            }
+
+            body:has(.dark-section) .title {
+                font-size: 42px;
+            }
+        }
+    </style>
+
+    <meta property="og:image" content="https://YOUR-DOMAIN.com/assets/new/hero-new.jpg">
+    <meta property="og:image:alt" content="Celestial astrology artwork for Cosmic Insights">
+    <meta name="twitter:image" content="https://YOUR-DOMAIN.com/assets/new/hero-new.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "About Cosmic Insights | Vedic Astrology & Spiritual Guidance in the USA",
+  "description": "Learn about Cosmic Insights, our approach to Vedic astrology, numerology, tarot and spiritual guidance, and how we bring traditional systems into modern life across the United States.",
+  "url": "https://YOUR-DOMAIN.com/about-us.html",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cosmic Insights",
+    "url": "https://YOUR-DOMAIN.com/"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Cosmic Insights",
+    "url": "https://YOUR-DOMAIN.com/"
+  }
+}
+</script>
+</head>
+
+<body class="page-transition">
+    <header class="header">
+        <div class="container nav"><a class="logo" href="index-us.html"><span class="mark">✦</span>Cosmic
+                Insights</a><button class="menu" aria-label="Open menu">☰</button>
+            <nav>
+                <ul class="links">
+                    <li><a href="index-us.html">Home</a></li>
+                    <li><a href="services-us.html">Services</a></li>
+                    <li><a href="experts-us.html">Experts</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a class="book" href="contact-us.html#booking">Book a Session</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow">OUR STORY</div>
+                    <h1>Traditional wisdom.<br><em>A modern way to explore your questions.</em></h1>
+                    <p>Cosmic Insights was founded on a simple belief: ancient guidance systems work—but only if they make sense to you. We exist to translate cosmic wisdom into practical, actionable clarity.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section paper">
+            <div class="container">
+                <div class="about-content reveal">
+                    <h2>Who we are</h2>
+                    <p>We're a team of experienced astrology, numerology, and spiritual guidance practitioners based across the United States. Our backgrounds are diverse—psychology, business, coaching, technology—which means we understand the real challenges you're facing. We're not mystical escapists; we're practical professionals who've discovered profound value in ancient systems and want to share that with others.</p>
+                    <p>Each of us found astrology, numerology, or tarot at a crossroads in our own lives. These tools gave us clarity, confidence, and direction when we needed it most. That's why we're passionate about offering the same gift to others.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="about-content reveal">
+                    <h2>Why we do this</h2>
+                    <p>Here's the truth: making major life decisions without cosmic perspective is like trying to navigate without stars. You can do it, but you're operating with incomplete information.</p>
+                    <p>We believe that:</p>
+                    <ul class="values-list">
+                        <li><b>You deserve clarity.</b> The questions that keep you up at night deserve real attention and thoughtful guidance—not generic advice or psychic theater.</li>
+                        <li><b>Ancient systems are structured traditions.</b> Vedic astrology, numerology and tarot are traditional interpretive systems used by practitioners to explore patterns, symbolism and timing.</li>
+                        <li><b>You already know the answer.</b> Our job isn't to predict your future or make your decisions for you. It's to help you access the wisdom and clarity you already carry within yourself.</li>
+                        <li><b>Timing matters.</b> The cosmos moves in cycles. Understanding where you are in your cycles helps you make decisions that align with natural momentum instead of fighting against it.</li>
+                        <li><b>Accessibility is essential.</b> Cosmic guidance shouldn't be wrapped in complicated terminology or hidden behind mysticism. It should be clear, practical, and immediately useful.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section paper">
+            <div class="container">
+                <div class="about-content reveal">
+                    <h2>Our approach</h2>
+                    <p>Every session at Cosmic Insights follows the same philosophy:</p>
+                    <div class="approach-steps">
+                        <div class="approach-step reveal">
+                            <div class="step-number">01</div>
+                            <h3>We listen deeply</h3>
+                            <p>Your question matters more than getting through a script. We ask follow-up questions and really understand what's driving you to seek guidance right now.</p>
+                        </div>
+                        <div class="approach-step reveal delay-1">
+                            <div class="step-number">02</div>
+                            <h3>We study rigorously</h3>
+                            <p>Whether it's your birth chart, personal numbers, or tarot spread, we analyze thoroughly. No shortcuts. The quality of our analysis depends on serious attention to detail.</p>
+                        </div>
+                        <div class="approach-step reveal delay-2">
+                            <div class="step-number">03</div>
+                            <h3>We explain clearly</h3>
+                            <p>You'll understand what we're seeing and why. No mystical mumbo-jumbo. Just clear language about patterns, cycles, and what they might mean for your situation.</p>
+                        </div>
+                        <div class="approach-step reveal">
+                            <div class="step-number">04</div>
+                            <h3>We empower you</h3>
+                            <p>The insights are yours to use however you see fit. We offer perspective and framework—you make the decisions about your life. That's how it should be.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="about-content reveal">
+                    <h2>What makes us different</h2>
+                    <div class="difference-grid">
+                        <div class="difference-item reveal">
+                            <h3>Practitioners, not entertainers</h3>
+                            <p>We're serious about our craft. Each of us brings years of training, continuous study, and genuine expertise—not just charisma.</p>
+                        </div>
+                        <div class="difference-item reveal delay-1">
+                            <h3>American perspective</h3>
+                            <p>We understand American culture, work ethic, and values. Our guidance is rooted in ancient systems but translated for modern American life.</p>
+                        </div>
+                        <div class="difference-item reveal delay-2">
+                            <h3>Results-oriented</h3>
+                            <p>We're invested in your growth and clarity. Sessions are designed to deliver actual insights you can use—not predictions or entertainment.</p>
+                        </div>
+                        <div class="difference-item reveal">
+                            <h3>Confidential relationships</h3>
+                            <p>Your stories and details stay private. We take confidentiality seriously and create a space where you can be completely honest.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section paper">
+            <div class="container">
+                <div class="about-content reveal">
+                    <h2>The cosmic backdrop</h2>
+                    <p>Here's something we know to be true: the universe isn't random. Planets move in predictable cycles. Numbers follow patterns. Energy flows in recognizable ways.</p>
+                    <p>Vedic astrology, one of the world's oldest continuous traditions, maps these patterns with stunning precision. When your birth chart is calculated correctly and read by someone who truly understands the system, it reveals profound truths about who you are and the rhythm of your life.</p>
+                    <p>These traditions combine symbolism, calculation and interpretation. We present them thoughtfully—as reflective frameworks rather than guarantees about the future.</p>
+                    <p>That's what we offer: a bridge between ancient cosmic wisdom and your very modern, very real life challenges and aspirations.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section dark-section">
+            <div class="container">
+                <div class="heading reveal">
+                    <div class="kicker">STEP INTO THE COSMIC CONVERSATION</div>
+                    <h2 class="title">Make space for a clearer perspective.</h2>
+                    <p class="subtitle">Thousands of ambitious, thoughtful Americans are using cosmic guidance to make better decisions and live more intentionally. You could too.</p>
+                </div>
+                <div class=" reveal">
+                    <a class="btn white" href="contact-us.html#booking">Book Your First Session ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-main"><a class="logo" href="index-us.html"><span class="mark">✦</span>Cosmic
+                        Insights</a>
+                    <p>Professional Vedic astrology, numerology, and spiritual guidance for ambitious Americans seeking clarity and direction.</p>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="services-us.html">Services</a></li>
+                        <li><a href="experts-us.html">Experts</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Guidance</h4>
+                    <ul>
+                        <li><a href="services-us.html#astrology">Vedic Astrology</a></li>
+                        <li><a href="services-us.html#career">Career Guidance</a></li>
+                        <li><a href="services-us.html#relationships">Relationships</a></li>
+                        <li><a href="services-us.html#tarot">Tarot Reading</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom"><span>© <span id="year">2026</span> Cosmic Insights. All rights
+                    reserved.</span><span>For guidance and reflection. Not a substitute for professional advice.</span></div>
+        </div>
+    </footer>
+    <div class="toast"><b>Request received</b><span>Thank you. We'll contact you shortly.</span></div><button
+        class="top-link" aria-label="Back to top">↑</button>
+    <div class="cursor-dot"></div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
