@@ -1,0 +1,5 @@
+// DivineAPI credentials for Daily Panchang
+// Get both values from your DivineAPI account -> Profile Details.
+// Keep this file out of public Git repositories.
+window.PANCHANG_API_KEY = '961f492e5eacfb9278506fcdfc2cbfd2';
+window.PANCHANG_ACCESS_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpdmluZWFwaS5jb20vc2lnbnVwIiwiaWF0IjoxNzg4Mjk5NzAyLCJleHAiOjMzNjUwOTk3MDIsIm5iZiI6MTc4ODI5OTcwMiwianRpIjoicVpaS28zaGhMRk9FMFpSQyIsInN1YiI6IjU3OTkiLCJwcnYiOiJlNmU2NGJiMGI2MTI2ZDczYzZiOTdhZmMzYjQ2NGQ5ODVmNDZjOWQ3In0.em5DwSn-vjeM6npTC_C1YvHKKxJkpFsSHXNXkKdjyQc';

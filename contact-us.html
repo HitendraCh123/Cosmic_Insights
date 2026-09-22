@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Book a Vedic Astrology Reading Online | Cosmic Insights USA</title>
+    <meta name="description" content="Book a private online astrology reading or contact Cosmic Insights for personalized Vedic astrology, numerology, tarot and life guidance across the United States.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Cosmic Insights">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://YOUR-DOMAIN.com/contact-us.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Cosmic Insights">
+    <meta property="og:title" content="Book a Vedic Astrology Reading Online | Cosmic Insights USA">
+    <meta property="og:description" content="Book a private online astrology reading or contact Cosmic Insights for personalized Vedic astrology, numerology, tarot and life guidance across the United States.">
+    <meta property="og:url" content="https://YOUR-DOMAIN.com/contact-us.html">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Book a Vedic Astrology Reading Online | Cosmic Insights USA">
+    <meta name="twitter:description" content="Book a private online astrology reading or contact Cosmic Insights for personalized Vedic astrology, numerology, tarot and life guidance across the United States.">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/celestial-elegance.css">
+    <link rel="stylesheet" href="assets/celestial-premium.css">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+        .contact-form {
+            background: var(--paper);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--line);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+            font-size: 0.95rem;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            font-family: var(--sans);
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--green);
+            box-shadow: 0 0 0 3px rgba(21, 150, 83, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .info-block {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .info-icon {
+            font-size: 1.5rem;
+            min-width: 40px;
+        }
+
+        .info-content h3 {
+            margin-bottom: 0.25rem;
+        }
+
+        .info-content p {
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .booking-types {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .booking-type {
+            padding: 1rem;
+            border: 2px solid var(--line);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .booking-type:hover {
+            border-color: var(--green);
+            background: rgba(21, 150, 83, 0.05);
+        }
+
+        .booking-type input[type="radio"] {
+            margin-right: 0.75rem;
+            width: min-content;
+
+        }
+
+        .success-message {
+            background: rgba(21, 150, 83, 0.1);
+            border: 1px solid var(--green);
+            color: var(--green);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            display: none;
+        }
+
+        /* =========================
+   FAQ / COMMON QUESTIONS
+   ========================= */
+
+        .dark-section {
+            background: #151b19;
+            color: #f7f4ec;
+            padding: 120px 0;
+        }
+
+        .dark-section .heading {
+            max-width: 1100px;
+            margin-bottom: 80px;
+        }
+
+        .dark-section .kicker {
+            color: var(--green2);
+            margin-bottom: 24px;
+        }
+
+        .dark-section .title {
+            color: #f7f4ec;
+            max-width: 1050px;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            column-gap: 70px;
+            row-gap: 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.14);
+        }
+
+        .faq-item {
+            position: relative;
+            padding: 34px 0 36px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+        }
+
+        .faq-item h3 {
+            margin: 0 0 14px;
+            color: #f7f4ec;
+            font-family: var(--sans);
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+        }
+
+        .faq-item p {
+            margin: 0;
+            max-width: 620px;
+            color: #bfc4bd;
+            font-family: var(--sans);
+            font-size: 17px;
+            line-height: 1.75;
+        }
+
+        @media (max-width: 900px) {
+            .dark-section {
+                padding: 90px 0;
+            }
+
+            .dark-section .heading {
+                margin-bottom: 55px;
+            }
+
+            .faq-grid {
+                grid-template-columns: 1fr;
+                column-gap: 0;
+            }
+
+            .faq-item {
+                padding: 28px 0 30px;
+            }
+
+            .faq-item h3 {
+                font-size: 20px;
+            }
+
+            .faq-item p {
+                font-size: 16px;
+                line-height: 1.65;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .dark-section {
+                padding: 72px 0;
+            }
+
+            .dark-section .title {
+                font-size: clamp(46px, 13vw, 68px);
+                line-height: 0.92;
+            }
+
+            .faq-item h3 {
+                font-size: 18px;
+            }
+
+            .faq-item p {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <meta property="og:image" content="https://YOUR-DOMAIN.com/assets/new/hero-new.jpg">
+    <meta property="og:image:alt" content="Celestial astrology artwork for Cosmic Insights">
+    <meta name="twitter:image" content="https://YOUR-DOMAIN.com/assets/new/hero-new.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Book a Vedic Astrology Reading Online | Cosmic Insights USA",
+  "description": "Book a private online astrology reading or contact Cosmic Insights for personalized Vedic astrology, numerology, tarot and life guidance across the United States.",
+  "url": "https://YOUR-DOMAIN.com/contact-us.html",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cosmic Insights",
+    "url": "https://YOUR-DOMAIN.com/"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Cosmic Insights",
+    "url": "https://YOUR-DOMAIN.com/"
+  }
+}
+</script>
+</head>
+
+<body class="page-transition">
+    <header class="header">
+        <div class="container nav"><a class="logo" href="index-us.html"><span class="mark">✦</span>Cosmic
+                Insights</a><button class="menu" aria-label="Open menu">☰</button>
+            <nav>
+                <ul class="links">
+                    <li><a href="index-us.html">Home</a></li>
+                    <li><a href="services-us.html">Services</a></li>
+                    <li><a href="experts-us.html">Experts</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a class="book" href="contact-us.html#booking">Book a Session</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow">READY WHEN YOU ARE</div>
+                    <h1>What would you like to explore today?</h1>
+                    <p>Book a private session, send us a message, or let us know what brought you here. We'll respond
+                        within 24 hours and help you take the next step.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section paper">
+            <div class="container">
+                <div id="booking" class="contact-grid">
+                    <div class="contact-form reveal">
+                        <h2>Book a Private Astrology Session</h2>
+                        <form id="bookingForm" onsubmit="handleSubmit(event)">
+                            <div class="success-message" id="successMessage">
+                                ✓ Thank you! We've received your request and will be in touch within 24 hours.
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timezone">Your Timezone *</label>
+                                <select id="timezone" name="timezone" required>
+                                    <option value="">Select timezone</option>
+                                    <option value="EST">Eastern (EST/EDT)</option>
+                                    <option value="CST">Central (CST/CDT)</option>
+                                    <option value="MST">Mountain (MST/MDT)</option>
+                                    <option value="PST">Pacific (PST/PDT)</option>
+                                    <option value="AKST">Alaska (AKST/AKDT)</option>
+                                    <option value="HST">Hawaii (HST)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>What would you like guidance on? *</label>
+                                <div class="booking-types">
+                                    <label class="booking-type">
+                                        <input type="radio" name="guidance" value="Career & Business" required>
+                                        Career & Business Decisions
+                                    </label>
+                                    <label class="booking-type">
+                                        <input type="radio" name="guidance" value="Relationships">
+                                        Relationships & Compatibility
+                                    </label>
+                                    <label class="booking-type">
+                                        <input type="radio" name="guidance" value="Life Direction">
+                                        Life Direction & Major Transitions
+                                    </label>
+                                    <label class="booking-type">
+                                        <input type="radio" name="guidance" value="Personal Growth">
+                                        Personal Growth & Reflection
+                                    </label>
+                                    <label class="booking-type">
+                                        <input type="radio" name="guidance" value="Other">
+                                        Something Else
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="practitioner">Preferred Practitioner (Optional)</label>
+                                <select id="practitioner" name="practitioner">
+                                    <option value="">No preference - match me with someone</option>
+                                    <option value="Vikram">Vikram (Astrology & Career)</option>
+                                    <option value="Maya">Maya (Numerology & Tarot)</option>
+                                    <option value="David">David (Life Coaching)</option>
+                                    <option value="Sarah">Sarah (Relationships)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Tell us about your question or situation *</label>
+                                <textarea id="message" name="message" required
+                                    placeholder="The more detail you share, the better we can prepare for your session..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sessionType">Session Type *</label>
+                                <select id="sessionType" name="sessionType" required>
+                                    <option value="">Select session type</option>
+                                    <option value="60-minute">60-minute Session ($197)</option>
+                                    <option value="90-minute">90-minute Deep Dive ($347)</option>
+                                    <option value="package">Transformation Package - 3 sessions ($547)</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn green" style="width: 100%; margin-top: 1rem;">Request Your
+                                Session ↗</button>
+                            <p style="font-size: 0.85rem; color: var(--muted); margin-top: 1rem;">We'll reach out within
+                                24 hours to confirm availability and schedule your session.</p>
+                        </form>
+                    </div>
+
+                    <div class="contact-info reveal">
+                        <h2>READY WHEN YOU ARE</h2>
+
+                        <div class="info-block">
+                            <div class="info-icon">📞</div>
+                            <div class="info-content">
+                                <h3>Call or Text</h3>
+                                <p>Available Monday-Saturday, 10am-8pm EST</p>
+                                <p><b>+1 (555) 123-4567</b></p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon">✉️</div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p>Direct response within 24 hours</p>
+                                <p><b>hello@cosmicinsights.com</b></p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon">🌐</div>
+                            <div class="info-content">
+                                <h3>Session Format</h3>
+                                <p>Video (Zoom/Google Meet) or phone call</p>
+                                <p>Available 7 days a week</p>
+                            </div>
+                        </div>
+
+                        <div class="info-block">
+                            <div class="info-icon">🔒</div>
+                            <div class="info-content">
+                                <h3>Privacy Assured</h3>
+                                <p>All sessions are confidential and private. Your information is never shared.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            style="background: var(--paper); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--green); margin-top: 2rem;">
+                            <h4 style="margin-bottom: 0.75rem;">First Time with Us?</h4>
+                            <p style="color: var(--muted); font-size: 0.95rem; margin-bottom: 1rem;">Most people book a
+                                60-minute consultation first to explore their question and see if cosmic guidance
+                                resonates with them. Then many clients return for deeper work.</p>
+                            <p style="color: var(--muted); font-size: 0.95rem;"><b>What to expect:</b> You'll receive a
+                                calendar link after booking. Choose your preferred time, and we'll send you connection
+                                details. Come ready to share what brought you here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark-section">
+            <div class="container">
+                <div class="heading reveal">
+                    <div class="kicker">BEFORE YOU BEGIN</div>
+                    <h2 class="title">A few things to know before your session.</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item reveal">
+                        <h3>What do I need for an astrology reading?</h3>
+                        <p>Your birth date, exact time of birth (if possible), and birth location. If you don't have
+                            your exact birth time, we can work with what you have—it just limits certain precision in
+                            the reading.</p>
+                    </div>
+                    <div class="faq-item reveal delay-1">
+                        <h3>Is this actually scientific?</h3>
+                        <p>Vedic astrology is based on real astronomical data and mathematical principles developed over
+                            thousands of years. Whether you call it "science" or "sophisticated pattern recognition,"
+                            the insights are real and actionable.</p>
+                    </div>
+                    <div class="faq-item reveal delay-2">
+                        <h3>Can you predict my future?</h3>
+                        <p>We don't predict the future. We help you understand timing, patterns, and your natural
+                            strengths—so you can make smarter decisions aligned with cosmic rhythms rather than fighting
+                            against them.</p>
+                    </div>
+                    <div class="faq-item reveal">
+                        <h3>What if I'm skeptical?</h3>
+                        <p>Good. Healthy skepticism is smart. Come with an open mind and see what resonates. Many of our
+                            clients were skeptical before their first session. The insights speak for themselves.</p>
+                    </div>
+                    <div class="faq-item reveal delay-1">
+                        <h3>How long until I notice changes?</h3>
+                        <p>Many clients feel clarity immediately—during the session itself. Others report that insights
+                            deepen over the following weeks as they sit with the guidance. Change happens at your pace.
+                        </p>
+                    </div>
+                    <div class="faq-item reveal delay-2">
+                        <h3>Is this confidential?</h3>
+                        <p>Completely. Everything you share stays between you and your practitioner. We take privacy
+                            extremely seriously.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-box reveal">
+                    <div>
+                        <h2>Need help choosing the right session?</h2>
+                        <p>Tell us what you’re looking for and we’ll help you choose the right next step.</p>
+                    </div><a class="btn white" href="contact-us.html#booking">Book or Message Us ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-main"><a class="logo" href="index-us.html"><span class="mark">✦</span>Cosmic
+                        Insights</a>
+                    <p>Professional Vedic astrology, numerology, and spiritual guidance for ambitious Americans seeking
+                        clarity and direction.</p>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="services-us.html">Services</a></li>
+                        <li><a href="experts-us.html">Experts</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Guidance</h4>
+                    <ul>
+                        <li><a href="services-us.html#astrology">Vedic Astrology</a></li>
+                        <li><a href="services-us.html#career">Career Guidance</a></li>
+                        <li><a href="services-us.html#relationships">Relationships</a></li>
+                        <li><a href="services-us.html#tarot">Tarot Reading</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom"><span>© <span id="year">2026</span> Cosmic Insights. All rights
+                    reserved.</span><span>For guidance and reflection. Not a substitute for professional advice.</span>
+            </div>
+        </div>
+    </footer>
+    <div class="toast"><b>Session request received</b><span>Thank you. We'll contact you shortly.</span></div><button
+        class="top-link" aria-label="Back to top">↑</button>
+    <div class="cursor-dot"></div>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const successMessage = document.getElementById('successMessage');
+
+            // Get form data
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData);
+
+            // Show success message
+            successMessage.style.display = 'block';
+
+            // Reset form
+            form.reset();
+
+            // In a real application, you would send this to a server
+            console.log('Session request:', data);
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
